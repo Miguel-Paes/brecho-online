@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 
+/*Cor fundo: #cfe4f2
+Destaque: #8fbfe0
+Detalhes: 1d8a99
+Texto: 2b3a67*/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +12,6 @@
     font-family: "Oranienbaum", serif;
 }
 
+body {
+    background-color: #CFE4F2;
+}
