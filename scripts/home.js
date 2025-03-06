@@ -1,6 +1,10 @@
-var btnExp = document.getElementById('#btn-expandir')
-var menu = document.getElementById('#top-menu')
+var btnExp = document.getElementsByClassName('.desce-menu')
+var menu = document.getElementsByClassName('.menu')
 
-btnExp.addEventListener('click', function () {
-  menu.classList.toggle('.expandido')
-})
+console.log(btnExp)
+console.log(menu)
+
+btnExp.addEventListener('click', expandeMenu())
+
+function expandeMenu() {
+  menu.classList.toggle('expandido')}
