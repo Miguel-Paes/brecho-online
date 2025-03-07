@@ -4,7 +4,8 @@ var menu = document.getElementsByClassName('.menu')
 console.log(btnExp)
 console.log(menu)
 
-btnExp.addEventListener('click', expandeMenu())
+btnExp.addEventListener('click', expandeMenu())''
 
 function expandeMenu() {
-  menu.classList.toggle('expandido')}
+  menu.classList.toggle('expandido')
+}
